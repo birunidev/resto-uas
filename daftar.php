@@ -1,9 +1,10 @@
-<!DOCTYPE html>
+
 <?php
   include "connection/koneksi.php";
   ob_start();
   session_start();
 ?>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <title>Daftar</title>

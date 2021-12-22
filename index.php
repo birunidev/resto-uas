@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <?php
 	include "connection/koneksi.php";
 	session_start();
@@ -6,6 +6,7 @@
 		header('location: beranda.php');
 	} else {
 ?>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<title>Masuk || Restoran</title>

@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+
 <?php
 include "connection/koneksi.php";
 session_start();
@@ -25,6 +24,8 @@ if(isset ($_SESSION['username'])){
     $nama_user = $r['nama_user'];
 
 ?>
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">

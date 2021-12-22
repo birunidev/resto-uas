@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 
 <?php
 include "connection/koneksi.php";
@@ -25,7 +25,7 @@ if(isset ($_SESSION['username'])){
     $nama_user = $r['nama_user'];
 
 ?>
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <title>Entri Order</title>

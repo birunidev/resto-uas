@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 
 <?php
 include "connection/koneksi.php";
@@ -45,7 +45,7 @@ if(isset ($_SESSION['username'])){
     //$id_level = $r['id_level'];
 
 ?>
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <title>Beranda</title>
